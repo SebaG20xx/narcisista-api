@@ -25,3 +25,5 @@ ENTORNO=dev PUERTO=8090 docker compose -p narcisista-api-dev up -d --build
 |---------|------------|--------|
 | dev     | feature/** | 8090   |
 | prod    | release/** | 8091   |
+
+La lista se calcula en el servidor, por eso `hasta` tiene un máximo de 1.000.000.
