@@ -1,0 +1,9 @@
+services:
+  narcisista-api:
+    container_name: narcisista-api-${ENTORNO}
+    image: narcisista-api:${ENTORNO}
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "${PUERTO}:8080"
