@@ -25,3 +25,10 @@ ENTORNO=dev PUERTO=8090 docker compose -p narcisista-api-dev up -d --build
 |---------|------------|--------|
 | dev     | feature/** | 8090   |
 | prod    | release/** | 8091   |
+
+## Acceso a Jenkins y SonarQube (laboratorio local)
+
+| Herramienta | URL                   | Usuario | Clave               |
+|-------------|-----------------------|---------|---------------------|
+| Jenkins     | http://localhost:8082 | admin   | `Taller.Devops2026` |
+| SonarQube   | http://localhost:9000 | admin   | `Taller.Devops2026` |
